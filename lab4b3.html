@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+    <p id="demo"></p>
+
+    <script>
+        let text = "";
+
+        // Loop from i = 0 up to 4 (5 iterations total)
+        for (let i = 0; i < 5; i++) {
+            // Add (i + 1) so the output starts at 1 and ends at 5, followed by a line break
+            text += "The number is " + (i + 1) + "<br>";
+        }
+
+        // Display the accumulated string inside the <p> element
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+</body>
+</html>
